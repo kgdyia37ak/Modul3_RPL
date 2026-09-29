@@ -6,4 +6,3 @@ hasil = angka1 + angka2
 
 print(f"Status: Setup Berhasil!")
 print(f"Hasil Penjumlahan: {hasil}")
-print("RendraAkbarFauzi_F5212510024")
