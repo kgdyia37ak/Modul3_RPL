@@ -1,4 +1,4 @@
-from models.buku_models import BukuModel
+from models.buku_model import BukuModel
 
 model = BukuModel()
 
