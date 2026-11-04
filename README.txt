@@ -1,3 +1,95 @@
-:root{--ink:#202c2b;--muted:#7d8986;--line:#e8edeb;--paper:#f6f8f7;--green:#176b58;--green2:#e7f2ee;--gold:#d4a85f;--red:#c45d55;--shadow:0 12px 35px rgba(29,53,47,.07)}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;font-size:14px}button,input,select,textarea{font:inherit}button{cursor:pointer}.hidden{display:none!important}.login-screen{min-height:100vh;display:grid;grid-template-columns:1.03fr .97fr;background:#fff}.login-art{background:linear-gradient(145deg,rgba(11,54,47,.94),rgba(20,93,75,.93)),radial-gradient(circle at 80% 20%,#5c9b80,transparent 45%);color:white;padding:48px 8%;display:flex;flex-direction:column;position:relative;overflow:hidden}.login-art:after{content:"";position:absolute;width:480px;height:480px;border:1px solid rgba(255,255,255,.12);border-radius:50%;right:-150px;bottom:-160px;box-shadow:0 0 0 45px rgba(255,255,255,.035),0 0 0 90px rgba(255,255,255,.025)}.brand-mark{width:48px;height:48px;border:1px solid rgba(255,255,255,.5);display:grid;place-items:center;border-radius:14px;font-family:Manrope;font-weight:800;letter-spacing:-2px}.art-copy{margin:auto 0;max-width:500px;z-index:1}.eyebrow{font-size:10px;letter-spacing:1.8px;font-weight:700}.art-copy h1{font:800 clamp(42px,5vw,68px)/1.12 Manrope;margin:20px 0}.art-copy h1 em{font-style:normal;color:#d8bd8b}.art-copy p{color:#d4e2dc;line-height:1.8;max-width:390px}.art-footer{font-size:11px;color:#c0d2ca;z-index:1}.login-panel{display:flex;align-items:center;justify-content:center;padding:45px}.login-box{width:min(390px,100%)}.mini-brand{font:800 18px Manrope;color:var(--green);margin-bottom:60px}.mini-brand span{font-size:11px;letter-spacing:2px;margin-left:6px;color:#8b9893}.muted{color:var(--green);margin-bottom:10px}.login-box h2{font:800 30px Manrope;margin:0 0 8px}.subtle{color:var(--muted);margin:0 0 32px}.login-box label,.field label{display:block;font-weight:700;font-size:12px;margin:18px 0 8px}.login-box input,.field input,.field select,.field textarea{width:100%;border:1px solid #e0e7e3;background:#fff;border-radius:9px;padding:13px 14px;outline:none;color:var(--ink)}input:focus,select:focus,textarea:focus{border-color:#6ba18e!important;box-shadow:0 0 0 3px rgba(23,107,88,.08)}.password-wrap{position:relative}.password-wrap input{padding-right:65px}.show-pass{position:absolute;right:10px;top:9px;border:0;background:none;color:var(--green);font-size:12px}.primary-btn,.secondary-btn{border:0;border-radius:9px;padding:12px 17px;font-weight:700}.primary-btn{background:var(--green);color:#fff;box-shadow:0 5px 12px rgba(23,107,88,.13)}.primary-btn:hover{background:#105643}.primary-btn span{margin-left:12px}.full{width:100%;margin-top:27px;padding:14px}.login-hint{margin-top:20px;padding:12px;background:#f5f8f6;border-radius:8px;color:#78847f;font-size:11px}.error{color:var(--red);font-size:12px}.login-copyright{position:absolute;bottom:25px;color:#9ba6a1;font-size:11px}.login-panel{position:relative}.app{min-height:100vh}.sidebar{width:248px;background:#fff;border-right:1px solid var(--line);position:fixed;inset:0 auto 0 0;display:flex;flex-direction:column;padding:25px 16px;z-index:10}.side-brand{display:flex;align-items:center;gap:11px;padding:0 7px 32px}.side-brand .brand-mark{background:var(--green);color:white;border:0}.brand-mark.small{width:39px;height:39px;border-radius:11px;font-size:13px}.side-brand b{display:block;font:700 12px Manrope}.side-brand small{font-size:9px;letter-spacing:1.5px;color:var(--muted)}.close-side{display:none;margin-left:auto;background:none;border:0;font-size:22px}.nav-caption{font-size:9px;letter-spacing:1.6px;color:#a3ada8;font-weight:700;padding:0 12px 12px}.nav-item{width:100%;display:flex;align-items:center;gap:13px;padding:12px;border:0;border-radius:8px;background:none;text-align:left;color:#71807a;font-size:12px;font-weight:600;margin:2px 0}.nav-item span{width:18px;text-align:center;font-size:17px}.nav-item:hover{background:#f4f8f6;color:var(--green)}.nav-item.active{background:var(--green2);color:var(--green);font-weight:700}.side-bottom{margin-top:auto}.help-card{background:#f5f8f6;border:1px solid #edf1ef;border-radius:10px;padding:14px;margin:0 3px 17px}.help-icon{width:23px;height:23px;display:grid;place-items:center;border-radius:50%;background:#dcebe5;color:var(--green);font-weight:700;margin-bottom:10px}.help-card b{font-size:11px}.help-card p{font-size:10px;line-height:1.5;color:var(--muted);margin:5px 0 0}.logout{color:#b45f58}.main{margin-left:248px;min-height:100vh;display:flex;flex-direction:column}.topbar{height:72px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;padding:0 36px;justify-content:space-between}.breadcrumb{font-size:12px;color:#9aa49f}.breadcrumb span{padding:0 10px;color:#c3ccc7}.breadcrumb b{color:var(--ink)}.top-user{display:flex;align-items:center;gap:10px}.avatar{width:34px;height:34px;border-radius:50%;background:#e7eee9;color:var(--green);display:grid;place-items:center;font-size:11px;font-weight:700}.top-user b{display:block;font-size:11px}.top-user small{font-size:10px;color:var(--muted)}.dots{border:0;background:none;color:#82908a}.menu-toggle{display:none;border:0;background:none;font-size:20px}.content{padding:34px 36px;flex:1;max-width:1600px;width:100%;margin:auto}.footer{border-top:1px solid var(--line);padding:17px 36px;color:#9ba6a1;font-size:10px}.footer span{padding:0 6px}.page-head{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:25px;gap:16px}.page-head h1{font:800 24px Manrope;margin:0 0 7px}.page-head p{color:var(--muted);font-size:12px;margin:0}.eyebrow-small{font-size:9px;letter-spacing:1.5px;color:var(--green);font-weight:700;margin-bottom:8px}.primary-btn.small-btn{font-size:11px;padding:10px 14px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-bottom:22px}.stat-card,.panel,.table-panel{background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 3px 14px rgba(29,53,47,.025)}.stat-card{padding:18px 19px;position:relative}.stat-top{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:11px}.stat-icon{width:31px;height:31px;border-radius:9px;background:#edf5f1;color:var(--green);display:grid;place-items:center;font-size:16px}.stat-number{font:800 27px Manrope;margin:14px 0 6px}.stat-foot{font-size:10px;color:#7e9a8c}.stat-foot b{color:var(--green)}.dashboard-grid{display:grid;grid-template-columns:1.45fr 1fr;gap:17px}.panel{padding:20px}.panel-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.panel-title h3{font:700 13px Manrope;margin:0}.panel-title span{font-size:10px;color:var(--muted)}.chart{height:215px;display:flex;align-items:flex-end;gap:13px;padding:15px 7px 0;border-bottom:1px solid var(--line);background:repeating-linear-gradient(to bottom,transparent 0,transparent 52px,#f0f3f1 53px)}.chart-col{flex:1;height:100%;display:flex;align-items:flex-end;gap:4px;position:relative}.bar{flex:1;border-radius:5px 5px 0 0;background:#b8d2c5;min-height:5px}.bar.dark{background:var(--green)}.chart-labels{display:flex;justify-content:space-around;padding:10px 0 0;color:#9aa49f;font-size:9px}.recent-list{display:flex;flex-direction:column}.recent-row{display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid #f0f3f1}.recent-row:last-child{border:0}.recent-name{font-weight:700;font-size:11px}.recent-date{font-size:9px;color:var(--muted);margin-top:4px}.recent-amount{font-size:11px;font-weight:700}.status{display:inline-flex;padding:5px 8px;border-radius:20px;font-size:9px;font-weight:700;white-space:nowrap}.status.disetujui,.status.diterima,.status.selesai{background:#e7f4ed;color:#277a55}.status.menunggu{background:#fff4df;color:#a97825}.status.dalam-proses{background:#eaf1fb;color:#4f76a9}.status.ditolak{background:#faeae8;color:#b45f58}.table-panel{overflow:hidden}.table-tools{display:flex;justify-content:space-between;align-items:center;padding:16px 18px;border-bottom:1px solid var(--line);gap:12px}.search{position:relative;max-width:310px;width:100%}.search input{width:100%;border:1px solid var(--line);border-radius:8px;padding:10px 12px 10px 34px;font-size:11px;outline:none}.search:before{content:'⌕';position:absolute;left:12px;top:5px;font-size:20px;color:#9aa49f}.table-meta{font-size:10px;color:var(--muted)}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;white-space:nowrap}th{text-align:left;background:#fafbfa;color:#8b9691;font-size:9px;letter-spacing:.5px;font-weight:700;padding:13px 17px}td{padding:14px 17px;border-top:1px solid #f0f2f1;font-size:10px;color:#596762}td strong{font-size:11px;color:var(--ink)}.actions{display:flex;gap:6px}.text-btn{border:0;background:none;color:var(--green);font-weight:700;font-size:10px;padding:4px}.text-btn.danger{color:#bd625b}.empty{text-align:center;padding:35px;color:var(--muted)}.pagination{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;color:var(--muted);font-size:10px}.page-numbers{display:flex;gap:5px}.page-numbers button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:6px 9px;color:#6d7974;font-size:10px}.page-numbers button.active{background:var(--green);color:#fff;border-color:var(--green)}.filter-select{border:1px solid var(--line);padding:9px;border-radius:8px;font-size:10px;color:#68756f;background:#fff}.report-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:20px}.report-card{padding:17px;background:#fff;border:1px solid var(--line);border-radius:10px}.report-card small{color:var(--muted);font-size:10px}.report-card b{display:block;font:800 22px Manrope;margin-top:9px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}.field.full-field{grid-column:1/-1}.field label{margin:0 0 7px}.field input,.field select,.field textarea{font-size:11px}.field textarea{min-height:75px;resize:vertical}.modal{position:fixed;inset:0;background:rgba(16,34,29,.48);z-index:30;display:grid;place-items:center;padding:18px}.modal-card{width:min(570px,100%);background:#fff;border-radius:14px;padding:24px;box-shadow:var(--shadow);max-height:90vh;overflow:auto}.modal-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px}.modal-head h3{font:800 20px Manrope;margin:0}.modal-close{border:0;background:#f3f6f4;border-radius:50%;width:30px;height:30px;font-size:19px;color:#75827c}.modal-actions{display:flex;justify-content:flex-end;gap:9px;margin-top:25px}.secondary-btn{background:#f1f4f2;color:#62716a}.toast{position:fixed;right:25px;bottom:25px;background:#203d34;color:white;padding:13px 18px;border-radius:9px;font-size:12px;box-shadow:var(--shadow);opacity:0;transform:translateY(12px);transition:.25s;z-index:50;pointer-events:none}.toast.show{opacity:1;transform:translateY(0)}.settings-box{max-width:650px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:22px}.settings-box h3{font:700 14px Manrope;margin:0 0 5px}.settings-box p{font-size:11px;color:var(--muted)}
-@media(max-width:1000px){.sidebar{transform:translateX(-100%);transition:.25s}.sidebar.open{transform:translateX(0)}.close-side,.menu-toggle{display:block}.main{margin-left:0}.topbar{padding:0 22px}.content{padding:26px 22px}.stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:680px){.login-screen{grid-template-columns:1fr}.login-art{display:none}.login-panel{min-height:100vh;padding:28px}.mini-brand{margin-bottom:48px}.topbar{height:62px;padding:0 15px}.breadcrumb{font-size:10px}.top-user b{font-size:10px}.top-user small,.dots{display:none}.content{padding:23px 14px}.page-head{align-items:flex-start;flex-direction:column}.page-head h1{font-size:21px}.stats{gap:9px}.stat-card{padding:13px}.stat-number{font-size:22px}.stat-top{font-size:9px}.dashboard-grid{grid-template-columns:1fr}.report-cards{grid-template-columns:1fr}.table-tools{align-items:flex-start;flex-direction:column}.search{max-width:none}.form-grid{grid-template-columns:1fr}.field.full-field{grid-column:auto}.footer{padding:15px}.modal-card{padding:19px}}
-.request-info{padding:24px;max-width:760px}.request-info h3{font:700 15px Manrope;margin:0 0 8px}.request-info p{font-size:12px;line-height:1.7;color:var(--muted);margin:0 0 18px}.login-hint{line-height:1.9}
+# SISTEM MANAJEMEN PERPUSTAKAAN
+
+## 1. Deskripsi Aplikasi
+
+Sistem Manajemen Perpustakaan merupakan aplikasi desktop berbasis Python yang digunakan untuk membantu pengelolaan data buku perpustakaan. Aplikasi ini menerapkan konsep Model-View-Controller (MVC) untuk memisahkan pengelolaan data, tampilan antarmuka, dan proses aplikasi.
+
+Aplikasi menggunakan database MySQL sebagai tempat penyimpanan data dan CustomTkinter untuk membangun tampilan antarmuka.
+
+## 2. Struktur Direktori MVC
+
+```text
+modul3/
+├── controllers/
+│   └── buku_controller.py
+├── models/
+│   └── buku_model.py
+├── views/
+│   └── ...
+├── tests/
+│   ├── test_buku.py
+│   └── ...
+├── main.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+### Penjelasan Struktur
+
+- **Models:** Mengelola data dan komunikasi dengan database.
+- **Views:** Mengatur tampilan antarmuka aplikasi.
+- **Controllers:** Mengatur proses dan menghubungkan model dengan tampilan.
+- **Tests:** Menyimpan kode pengujian aplikasi.
+- **main.py:** File utama untuk menjalankan aplikasi.
+- **requirements.txt:** Daftar library yang dibutuhkan aplikasi.
+
+## 3. Instalasi dan Konfigurasi Database MySQL
+
+### Persiapan
+
+- Python
+- Visual Studio Code
+- Git
+- Laragon
+- MySQL
+
+### Instalasi Dependensi
+
+Jalankan perintah berikut pada terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Konfigurasi Database
+
+1. Buka aplikasi Laragon.
+2. Jalankan layanan MySQL.
+3. Buka phpMyAdmin atau pengelola database MySQL.
+4. Buat database dengan nama yang sesuai dengan konfigurasi aplikasi.
+5. Pastikan konfigurasi host, username, password, dan database sudah benar.
+
+## 4. Cara Menjalankan Aplikasi
+
+Aktifkan virtual environment, kemudian jalankan:
+
+```bash
+python main.py
+```
+
+Pastikan MySQL sudah aktif sebelum membuka aplikasi.
+
+## 5. Pengujian Aplikasi
+
+Untuk menjalankan unit testing:
+
+```bash
+pytest -v
+```
+
+Untuk memeriksa kualitas kode menggunakan Flake8:
+
+```bash
+flake8 models/ controllers/ --count --select=E9,F63,F7,F82 --show-source --statistics
+```
+
+## 6. Packaging Aplikasi
+
+Aplikasi dapat dikemas menjadi file executable menggunakan PyInstaller:
+
+```bash
+pyinstaller --noconfirm --onefile --windowed --name "AplikasiPerpustakaan" main.py
+```
+
+Hasil aplikasi executable berada di folder `dist/`.
